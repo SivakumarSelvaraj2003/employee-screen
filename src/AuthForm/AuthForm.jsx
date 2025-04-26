@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Eye, EyeOff } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import "../AuthForm.css";
+import logo from "../images/logo.png"; 
 
 export default function App() {
   const [isLogin, setIsLogin] = useState(true);
@@ -54,7 +55,7 @@ export default function App() {
   return (
     <div className="container">
       <div className="heading-container">
-        <img src="src/images/logo.png" alt="logo" />
+        <img src={logo} alt="logo" />
         <p>
           Welcome to <span>TechLambdas <br /> PVT Ltd</span>
         </p>

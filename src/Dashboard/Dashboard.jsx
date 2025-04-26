@@ -4,6 +4,7 @@ import EmployeeTable from "./EmployeeTable";
 import AddEmployeeModal from "./AddEmployeeModal";
 import DeleteConfirmationModal from "./DeleteConfirmationModal";
 import { FaPlus, FaSignOutAlt } from "react-icons/fa";
+import logo from "../images/logo.png"; 
 /* import { FaSearch } from "react-icons/fa";  */
 
 function App() {
@@ -50,7 +51,7 @@ function App() {
       <div className="sidebar-container">
         <div className="logo-container">
           <img
-            src="src/images/logo.png"
+            src={logo}
             alt="logo"
             className="logo-container-img"
           />
