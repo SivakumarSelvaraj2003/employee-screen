@@ -1,0 +1,77 @@
+/* Common modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Specific styling for delete confirmation modal */
+.modal2 {
+    margin-left: 100px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Delete icon style */
+.delete-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+}
+
+
+
+/* Modal action buttons */
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Delete button */
+.delete-btn {
+    width: 40%;
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.delete-btn:hover {
+  background-color: #007bff;
+}
+
+/* Cancel button */
+.cancel-btn {
+    width: 40%;
+  background-color: white;
+  color: #007bff;
+  padding: 10px 18px;
+  border: #007bff 1px solid;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.cancel-btn:hover {
+  background-color: #0056b3;
+  color: white;
+}

@@ -1,0 +1,41 @@
+/* Employee.css */
+
+.employee-table {
+   
+ width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.employee-table th,
+.employee-table td {
+     font-size: 15px;
+   margin: 100px;
+  border: none;
+  padding: 18px;
+  text-align: center;
+}
+
+.employee-table tbody tr td{
+    font-size: 15px;
+}
+
+.employee-table tbody tr:nth-child(odd) {
+  background-color: rgba(78, 67, 67, 0.164); 
+}
+
+
+.icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button.icon{
+    color: blueviolet;
+    font-size: 20px;
+}
+button.delete{
+  color: red;
+  font-size: 20px;
+}
